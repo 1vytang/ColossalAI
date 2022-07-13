@@ -77,3 +77,5 @@ class ExponentialLR(_ExponentialLR):
     def __init__(self, optimizer, total_steps, gamma: float = 1.0,
                  last_epoch: int = -1) -> None:
         super().__init__(optimizer, gamma, last_epoch=last_epoch)
+    """To Do: new function
+    """
